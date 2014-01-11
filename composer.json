@@ -1,0 +1,16 @@
+{
+    "require": {
+        "drealecs/thread-worker": "dev-master",
+        "drealecs/http-persistent-client": "1.*",
+        "rhumsaa/uuid": "2.5.*"
+    },
+    "minimum-stability": "alpha",
+    "autoload": {
+        "psr-0": {
+            "PassScan": ""
+        }
+    },
+    "config": {
+        "use-include-path": true
+    }
+}

@@ -1,7 +1,9 @@
 <?php
 namespace Entity;
 
-/** @Entity */
+/**
+ * @Entity
+ */
 class AccountDetail {
 
     /**

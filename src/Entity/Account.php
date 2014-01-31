@@ -3,7 +3,9 @@ namespace Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Criteria;
 
-/** @Entity */
+/**
+ * @Entity
+ */
 class Account {
 
     /**

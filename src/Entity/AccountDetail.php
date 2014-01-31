@@ -3,6 +3,7 @@ namespace Entity;
 
 /**
  * @Entity
+ * @Table(indexes={@Index(columns={"name"})})
  */
 class AccountDetail {
 

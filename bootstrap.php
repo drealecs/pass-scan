@@ -9,9 +9,9 @@ $isDevMode = true;
 
 $dbParams = array(
     'driver'   => 'pdo_mysql',
-    'host'     => '127.0.0.1',
+    'host'     => '192.168.0.116',
     'user'     => 'root',
-    'password' => '',
+    'password' => 'qwerty123',
     'dbname'   => 'pass-scan',
 );
 
@@ -19,7 +19,7 @@ if ($isDevMode) {
     $cache = new \Doctrine\Common\Cache\ArrayCache;
 } else {
     $redis = new \Redis();
-    $redis->connect('127.0.0.1');
+    $redis->connect('192.168.0.116');
     $cache = new \Doctrine\Common\Cache\RedisCache();
     $cache->setRedis($redis);
 }
